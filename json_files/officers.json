@@ -1,0 +1,22 @@
+{"officer":[
+	{
+		"position": "President",
+		"name": "Elora Tickle",
+		"image": "Project_Images/elora.PNG"
+	},
+	{
+		"position": "Vice President",
+		"name": "Madison Malone",
+		"image": "Project_Images/madison.jpg"
+	},
+	{
+		"position": "Treasurer",
+		"name": "Michael Lust",
+		"image": "Project_Images/michael.PNG"
+	},
+	{
+		"position": "Secretary",
+		"name": "Laurenz Luke Gonzales",
+		"image": "Project_Images/laurenz.jpg"
+	}
+]}

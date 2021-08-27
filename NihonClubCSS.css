@@ -1,0 +1,361 @@
+/*General CSS for all pages*/
+html {font-family: Garamond, serif;}
+h1{font-size: 36px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+p{font-size: 20px;}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	padding-bottom: 20px;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer {
+	font-size: 24px;
+	padding-top: 25px;
+	width: 100%;
+	text-align: center;
+	background-color: #dc8e64;
+	display: inline-block;
+	position: sticky;
+	margin-top: 20px;
+}
+
+hr {
+	display: inline-block;
+	border-color: #333;
+	border-style: dashed;
+	width: 100%;
+}
+
+/*Navbar CSS*/
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+}
+
+/*General CSS for header*/
+header {
+	font-size: 20px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #dc8e64;*/
+	background-image: url("Project_Images/header_background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*header CSS for header navbar*/
+header .nav-ul ul {
+	background-color: #333;
+	margin:0;
+    padding:0;
+  	position: sticky;
+}
+
+header .nav-ul li a {
+  	color: white;
+  	text-decoration: none;
+  	padding: 14px 16px;
+}
+
+header .active {
+  	background-color: #dc8e64;
+  	color: black;
+}
+
+/*CSS selectors for header navbar*/
+header .nav-ul li a:hover, header .nav-ul li a:focus {
+	color: #dc8e64;
+}
+
+/*CSS for header icon/logo*/
+#title {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+/*Index/home page CSS*/
+/*Club intro section CSS*/
+.club_intro {
+	text-align: center;
+}
+
+/*Officer section CSS*/
+#officer_intro_title {
+	text-align: center;
+}
+
+#officer_intro {
+	float: left;
+	position: relative;
+	left: 45px;
+	padding-bottom: 20px;
+}
+
+.officer {
+	text-align: center;
+	margin: 10px;
+  	border: 5px solid #ccc;
+  	float: left;
+  	width: 250px;
+	height: auto;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+
+.officer h3 {
+	text-align: center;
+}
+
+.officer p {
+	text-align: center;
+	font-size: 24px;
+}
+
+.officer_img {
+	max-height: 310px;
+	max-width: 250px;
+
+}
+
+#madison_pic {
+	height: 310px;
+}
+
+#laurenz_pic {
+	width: 250px;
+}
+
+/*CSS for button in officer*/
+.officer button {
+	display: block;
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+  	padding: 12px 20px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	background: #dc8e64;
+  	color: white;
+  	border: 0;
+  	cursor: pointer;
+}
+
+.officer button:hover {
+	color: black;
+  	transform: scale(1.1); 
+}
+
+/*CSS for footer navbar*/
+footer .nav-ul ul {
+	margin: 0;
+    padding: 0;
+  	overflow: hidden;
+  	top: 0;
+}
+
+footer .nav-ul li a {
+	text-decoration: none;
+	padding-right: 10px;
+	font-weight: bold;
+	color: white;
+
+}
+
+/*CSS selectors for footer navbar*/
+footer .nav-ul li a:hover, footer .nav-ul li a:focus  {
+	color: black;
+}
+
+/*Social media icons CSS*/
+.facebook_icon:hover, .instagram_icon:hover, .discord_icon:hover {
+  	transform: scale(1.1); 
+}
+
+/*Copyright CSS*/
+#copyright {
+	font-size: 16px;
+}
+
+/*Bottom img CSS*/
+#kitsune_head {
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: 200px;
+}
+
+/*Future Events CSS*/
+.events h1{
+	text-align: center;
+}
+
+.events p {
+	margin: auto;
+	margin-top: 0px;
+}
+
+.events img {
+	width: auto;
+	height: 200px;
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
+
+/*Button CSS for events*/
+.events button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: inline-flex;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  	padding: 12px 20px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	background: #dc8e64;
+  	color: white;
+  	border: 0;
+  	cursor: pointer;
+
+}
+
+/*Button CSS hover selector*/
+.events button:hover {
+	color: black;
+  	transform: scale(1.1); 
+}
+
+.upcoming_events, .past_events-1, .past_events-2, .past_events-3, .past_events-4 {
+	display: inline-block;
+	position: relative;
+}
+
+/*Image CSS selectors*/
+.events img:hover, .past_events img:hover {
+  	transform: scale(1.1); 
+  	cursor: pointer;
+}
+
+/*Photo Gallery CSS*/
+main .photo_gallery {
+	margin-bottom: 100px;
+}
+
+.img_slideshow {
+	width: 540px;
+	margin: 0 auto;
+    padding: 20px;
+    /*border: 3px solid green;*/
+}
+
+.bx-wrapper .bx-caption span {
+    margin-bottom: 10px;
+}
+
+/*General CSS for each content in gallery*/
+.gallery {
+	margin: 5px;
+  	border: 1px solid #ccc;
+  	float: left;
+  	width: 180px;
+}
+
+/*Gallery CSS hover selector*/
+.gallery:hover {
+	border: 1px solid #777;
+  	transform: scale(1.1); 
+  	cursor: pointer;
+}
+
+/*CSS for each img in gallery*/
+.gallery img {
+	width: 100%;
+  	height: auto;
+}
+
+/*CSS for each description of each img*/
+div .desc {
+	padding: 15px;
+  	text-align: center;
+}
+
+/*FAQ CSS*/
+.FAQ h1 {
+	padding-bottom: 0;
+	/*margin-bottom: 0;*/
+}
+
+/* tabs/accordion CSS */
+#tabs h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#tabs p {
+	font-size: 16px;
+}
+
+#tabs-1 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#tabs-2 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#tabs-3 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/*User Registration CSS*/
+.registration label, input {
+  display: table-cell;
+  text-align: left;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.registration input[type=submit] {
+  float: left;
+  padding-right: 5px;
+
+}
+
+
+
+
+
+
